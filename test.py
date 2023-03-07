@@ -1,2 +1,5 @@
 ''' Test Script '''
-print('Hello World')
+
+
+with open('./test/sample.txt') as f:
+    print(f.read())
