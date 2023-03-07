@@ -23,6 +23,7 @@ jobs:
         pylint $(git ls-files '*.py')
   run:
     runs-on: ubuntu-latest
+    needs: build
     steps:
       - name: checkout repo content
         uses: actions/checkout@v2 # checkout the repository content
