@@ -1,6 +1,6 @@
 import os
 
-os.mkdir(./test)
+os.mkdir("./test")
 # Define the file path and contents
 file_path = './test/new_file.txt'
 file_contents = 'This is the contents of the new file.'
