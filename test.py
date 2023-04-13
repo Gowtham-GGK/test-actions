@@ -1,7 +1,7 @@
 import os
 
 # Define the file path and contents
-file_path = 'path/to/new_file.txt'
+file_path = './test/new_file.txt'
 file_contents = 'This is the contents of the new file.'
 
 # Create the file
