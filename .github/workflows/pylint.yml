@@ -38,3 +38,5 @@ jobs:
           python -m pip install --upgrade pip
       - name: execute py script # run main.py
         run: sudo python test.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
